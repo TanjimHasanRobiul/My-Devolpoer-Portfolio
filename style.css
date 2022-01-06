@@ -43,7 +43,7 @@ box-shadow 10px 5px yellowgreen
 
 }
 .half-width img{
-    width: 60%
+    width: 100%
 
 }
 .link-batton{
@@ -58,6 +58,7 @@ box-shadow 10px 5px yellowgreen
 }
 .contener-1{
     display: flex;
+    background-color: cornsilk;
     width: 60%;
     margin-left: 5%;
     margin-right: 5%;
@@ -65,4 +66,9 @@ box-shadow 10px 5px yellowgreen
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
     border-left: greenyellow
+}
+.head-line{
+
+    text-align: center;
+    color: chocolate;
 }
