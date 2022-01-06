@@ -1,0 +1,68 @@
+.top-batton{
+    display: flex;
+    width: 60%;
+padding-left: 4%;
+
+}
+
+.box{
+    width: 60%;
+    margin-left: 3%;
+    padding-left: 20px;
+    border-radius: 10px;
+border-left: 10px solid palegreen;
+background-repeat: none;
+
+}
+h1{
+    font-size: 50px;
+}
+h2{ 
+    font-size: 50px;
+color: chocolate;
+
+}
+.orange-color{
+    color: burlywood;
+}
+
+.contener{
+    display: flex;
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    
+    
+}
+
+.half-width{
+    width: 30%
+padding-left 2%
+box-shadow 10px 5px yellowgreen
+
+}
+.half-width img{
+    width: 60%
+
+}
+.link-batton{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.contener{display: flex;
+
+}
+.contener-1{
+    display: flex;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: greenyellow
+}
