@@ -1,74 +1,142 @@
-.top-batton{
+.top {
+    margin-top: 40px;
     display: flex;
-    width: 60%;
-padding-left: 4%;
-
+    margin: 5%;
 }
 
-.box{
-    width: 60%;
-    margin-left: 3%;
-    padding-left: 20px;
-    border-radius: 10px;
-border-left: 10px solid palegreen;
-background-repeat: none;
-
+.half-width {
+    width: 100%;
 }
-h1{
+
+.half-width img {
+    margin-left: 10%;
+    width: 60%
+}
+
+#border-left {
+    border-left: 10px solid palegreen;
+    border-radius: 5px;
+}
+
+.text {
+    padding: 40px;
+    box-shadow: 5px 2px 5px 2px gainsboro;
+    border-radius: 5px;
+    font-size: 20px;
+    color: goldenrod;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 8px;
+}
+
+h1 {
     font-size: 50px;
 }
-h2{ 
+
+h2 {
     font-size: 50px;
-color: chocolate;
+    color: chocolate;
 
 }
-.orange-color{
+
+.orange-color {
     color: burlywood;
 }
 
-.contener{
+.container {
     display: flex;
-    width: 70%;
     margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 20px;
-    
-    
+    justify-content: space-around;
 }
 
-.half-width{
-    width: 30%
-padding-left 2%
-box-shadow 10px 5px yellowgreen
-
-}
-.half-width img{
-    width: 100%
-
-}
-.link-batton{
-    text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
-    color: white;
-    font-weight: 800;
-    border-radius: 5px;
-}
-.contener{display: flex;
-
-}
-.contener-1{
-    display: flex;
-    background-color: cornsilk;
-    width: 60%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 20px;
+.half {
+    width: 370px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
     border-radius: 10px;
-    box-shadow: 10px 10px 40px gray;
-    border-left: greenyellow
+    background-color: cornsilk;
+    box-shadow: 5px 5px 5px gray;
+    border-left: greenyellow;
 }
-.head-line{
 
+.half img {
+    width: 50%;
+}
+
+br {
+    margin: 30px;
+}
+
+.head-line {
     text-align: center;
     color: chocolate;
+}
+
+.contacts {
+    margin-top: 40px;
+    box-shadow: 7px 5px 7px 5px gainsboro;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 8%;
+    padding: 30px;
+}
+
+hr {
+    width: 70%;
+    margin: 10px;
+    margin-left: 15%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.fa-facebook,
+.fa-linkedin {
+    color: blue;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.fa-youtube {
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.fa-phone {
+    color: aqua;
+    margin-right: 8px;
+}
+
+.fa-tiktok,
+.fa-github {
+    margin-right: 8px;
+}
+
+.fa-copyright {
+    color: blue;
+    margin: 5px;
+    size: 5px;
+    align-items: center;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #000000;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-align: center;
 }
